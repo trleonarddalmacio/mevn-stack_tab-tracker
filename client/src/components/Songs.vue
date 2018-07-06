@@ -30,7 +30,7 @@
                 class="cyan"
                 :to="`/songs/${song.id}`">
                 View Song
-            </v-btn>
+              </v-btn>
             </v-flex>
             <v-flex xs6>
               <img :src="song.albumImageUrl" class="album-image">
